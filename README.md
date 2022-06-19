@@ -1,6 +1,6 @@
-## Ubuntu + Chrome Remote Desktop + Chrome docker image
+## Ubuntu + Chrome Remote Desktop + Firefox docker image
 
-This image is based on [Ubuntu](https://ubuntu.com/) and contains [XFCE Desktop Environment](https://www.xfce.org/), [Chrome Remote Desktop](https://remotedesktop.google.com/) and Chrome + Firefox browsers.
+This image is based on [Ubuntu](https://ubuntu.com/) and contains [XFCE Desktop Environment](https://www.xfce.org/), [Chrome Remote Desktop](https://remotedesktop.google.com/) and  Firefox browser.
 
 It enables you to connect to the container via Chrome Remote Desktop and have desktop environment with web browsing inside the container even if you can't connect to your container directly (for example, your container us running behind [NAT](https://en.wikipedia.org/wiki/Network_address_translation)).
 
