@@ -26,7 +26,8 @@ RUN apt-get install --assume-yes firefox
 # ---------------------------------------------------------- 
 # SPECIFY VARIABLES FOR SETTING UP CHROME REMOTE DESKTOP
 ARG USER=myuser
-ENV PIN=123456 #use 6 digits at least
+# use 6 digits at least
+ENV PIN=123456
 ENV CODE=4/xxx
 ENV HOSTNAME=myvirtualdesktop
 # ---------------------------------------------------------- 
