@@ -17,7 +17,7 @@ Chrome Remote Desktop also uses outgoing connection to Google servers, enabling 
 
 The more proper option (but more tricky in setting up) is using VPN on your NAS + [ZeroTier](https://docs.zerotier.com/devices/synology/) container to get around the problem of ISP NAT.
 
-### Synology DSM 6 instructions
+### Synology DSM 6,7 instructions
 
 * Install ["Docker"](https://www.synology.com/en-global/dsm/packages/Docker) package on your NAS and open it's UI. 
 * Open "Registry" tab. Search for `cardinalby chrome-remote-desktop` image and "Download" it. ![Downloading cardinalby/chrome-remote-desktop image](./doc/2.jpg).
