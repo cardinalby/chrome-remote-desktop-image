@@ -14,7 +14,7 @@ RUN sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable 
 # INSTALL XFCE DESKTOP AND DEPENDENCIES
 RUN apt-get update && apt-get upgrade --assume-yes
 RUN apt-get install --assume-yes --fix-missing sudo wget apt-utils xvfb xfce4 xbase-clients \
-    desktop-base vim xscreensaver google-chrome-stable python-psutil psmisc python3-psutil xserver-xorg-video-dummy ffmpeg
+    desktop-base vim xscreensaver google-chrome-stable python-psutil psmisc python3-psutil xserver-xorg-video-dummy ffmpeg dialog python3-xdg python3-packaging
 
 RUN apt-get install libutempter0
 RUN wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
